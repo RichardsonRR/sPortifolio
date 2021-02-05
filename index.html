@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png" />
@@ -13,9 +12,15 @@
     <title>Richardson Rodrigues</title>
   </head>
   <body>
-<div class="container">
-    <header>
 
+<div class="container">
+    <div class="hamburguer">
+      <div class="line" id="line1"></div>
+      <div class="line" id="line2"></div>
+      <div class="line" id="line3"></div>
+    </div>
+  
+  <header>
         <div class="formatadorDeImgs">
             <img src="imgs/back4.jpg" alt="monitor, teclado, caderno e oculos">
      </div>  
@@ -25,14 +30,30 @@
    <p>Richardson Rodrigues Abreu</p> 
    <button>Saiba mais</button>
      </div>
-    
-
     </header>
+
+    <div class="sidebar">
+      <nav>
+        <ul class="menu">
+          <li class="menu-item"><a href="" class="menu-link">Home</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Conhecimentros</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Contatos</a></li>
+          
+        </ul>
+      </nav>
+      <div class="social">
+        <a href="#"><i class="fab fa-github"></i> </a> 
+        <a href="#"><i class="fab fa-facebook"></i></a> 
+        <a href="#"><i class="fab fa-linkedin"></i></a>  
+      </div>
+    </div>
+
 
 </div>
 
 
   </body>
 
-  <script></script>
+  <script src="script.js"></script>
 </html>
