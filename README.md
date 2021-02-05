@@ -1,2 +1,6 @@
 # sPortifolio
-respository para criaçao do meu futuro site. 
+Respository para criaçao do meu futuro site. 
+
+
+## Realizados 
+Pagina capa  pre-alterada 
