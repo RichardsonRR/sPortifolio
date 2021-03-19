@@ -1,5 +1,5 @@
 # sPortifolio
-Respository para criaçao do meu futuro site. 
+Repositorio para meu futuro site. 
 
 
 ## Realizados 
